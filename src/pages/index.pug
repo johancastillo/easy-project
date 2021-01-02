@@ -1,8 +1,7 @@
-doctype html
-html
-    head
-        title My app with Pug
-    body
-        include ../includes/menu
-        h1 Hello World
-        p By Jc Johan
+extends ../includes/template
+
+block content
+    p Welcome my Index Page
+
+block footer
+    p By Index
