@@ -1,7 +1,7 @@
 # Structure Pug Project
 
-## Compiler
+## Pug Compiler
 
 ```shell
-$ yarn pug -w --pretty src/pages -o dist -p src/includes
+$ yarn pug -w src/pug/pages -o dist -p src/pug/includes
 ```
